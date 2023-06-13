@@ -19,7 +19,8 @@ from keras.regularizers import l2
 from keras.constraints import min_max_norm
 from keras.layers import Embedding,Input
 from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
+#from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from keras.layers import Layer
 from keras.models import Sequential,Model
 
